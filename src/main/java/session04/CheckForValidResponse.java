@@ -39,6 +39,7 @@ public class CheckForValidResponse {
 		.then()
 		.statusCode(200)
 		.statusLine("HTTP/1.1 200 OK");
+          System.out.println("hi");
 		
 	}
 }
