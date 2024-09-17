@@ -38,6 +38,7 @@ public class ValidateResponseHeader {
 			Headers headerList=rs.getHeaders();
 			for(Header header:headerList) {
 				System.out.println("key:"+header.getName()+ "Value:" +header.getValue());
+                                System.out.println("Hi");
 			}
 		  
 	}
